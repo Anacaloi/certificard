@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 body {
   background: linear-gradient(236.85deg, #844797 27.26%, #7272aa 96.03%);
-
   font-family: "Roboto", sans-serif;
 }
 .container {
@@ -15,14 +14,17 @@ body {
 .cabecalho {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .perfil {
   display: flex;
+  flex-wrap: wrap;
 }
 .perfil-foto {
   max-height: 160px;
   border-radius: 460px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin: 0 auto;
 }
 .titulo {
   margin-left: 16px;
@@ -94,4 +96,42 @@ body {
   background: #433e52;
   border: 2px solid #f7f7f7;
   color: #f7f7f7;
+}
+
+@media (max-width: 800px) {
+  .container {
+    margin: 35px;
+    padding: 35px;
+  }
+  .cabecalho {
+    justify-content: center;
+  }
+  .titulo {
+    margin: 0 auto;
+  }
+  .titulo h1 {
+    font-size: 30px;
+  }
+  .titulo h3 {
+    font-size: 20px;
+  }
+  .tema button {
+    margin-top: 6px;
+    font-size: 15px;
+    padding: 6px 12px;
+    background: #fff6fa;
+    color: #2f0e2b;
+    border: 1px solid #2f0e2b;
+  }
+  .projetos {
+    margin-top: 16px;
+    padding: 16px;
+  }
+  .projetos-titulo {
+    font-size: 24px;
+  }
+  .projetos-item {
+    font-size: 12px;
+    line-height: 16px;
+  }
 }
