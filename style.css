@@ -1,10 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 body {
-  background: linear-gradient(236.85deg, #1c1b34 27.26%, #2e85d5 96.03%);
+  background: linear-gradient(236.85deg, #844797 27.26%, #7272aa 96.03%);
+
   font-family: "Roboto", sans-serif;
 }
 .container {
-  background: #fff7fa;
+  background: #f9f4f4;
   margin: 64px;
   border-radius: 20px;
   box-shadow: 6px 6px 6px #0e1d2f;
@@ -52,7 +53,7 @@ body {
 .projetos {
   display: flex;
   flex-direction: column;
-  background: linear-gradient(230.65deg, #a377d4 27.49%, #d5b7e2 83.19%);
+  background: linear-gradient(230.65deg, #dbd2ff 27.49%, #dbd2ff 83.19%);
   box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
   border-radius: 20px;
   margin-top: 32px;
@@ -79,17 +80,18 @@ body {
   line-height: 2em;
 }
 .dark {
-  background: linear-gradient(236.85deg, #46446d 27.26%, #5f6e83 96.03%);
+  background: linear-gradient(236.85deg, #41033c 27.26%, #6b3d73 96.03%);
 }
 .dark .container {
-  background: #2f1e2e;
+  background: #433e52;
   color: #f6f6f6;
 }
 .dark .projetos {
-  color: #1c1c1c;
+  background: linear-gradient(230.65deg, #6e62a0 27.49%, #bbb7ce 83.19%);
+  color: #0e1d2f;
 }
 .dark .tema button {
-  background: #2f1e2e;
+  background: #433e52;
   border: 2px solid #f7f7f7;
   color: #f7f7f7;
 }
